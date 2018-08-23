@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zoozeane</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Importando CSS do Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+        <!-- Importando CSS do Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
 
-    <!-- Importando meu próprio CSS -->
-    <link rel="stylesheet" href="css/index.css">
+<!-- Importando meu próprio CSS -->
+<link rel="stylesheet" href="css/index.css">
 
-    <!-- Importando JavaScript do jQuery -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-
-    <!-- Importando JavaScript do Bootstrap -->
-    <script src="js/bootstrap.js"></script>
+<!-- Importando JavaScript do Bootstrap -->
+<script src="js/bootstrap.js"></script>
 
 
 </head>
@@ -37,9 +35,6 @@
                     <a href="index.html" class="nav-link">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="produtos.html" class="nav-link">Produtos</a>
-                </li>
-                <li class="nav-item">
                     <a href="sobre.html" class="nav-link">Sobre</a>
                 </li>
                 <li class="nav-item">
@@ -48,10 +43,17 @@
             </ul>
 
             <form class="form-inline">
-                <input type="text" class="form-control mr-sm-1" placeholder="Pesquisar">
-                <button class="btn btn-info">&#x1F50D;</button>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Pesquisar!">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" type="submit"><i class="fa fa-search" style="font-size:22px"></i></button>
+                    </div>
+                </div>
             </form>
-            <!-- Início Produtos Promoções Contato Sobre -->
+            <button class="btn btn-info btn-carrinho">
+                <i class="fa fa-shopping-cart" style="font-size:22px"></i>
+            </button>
+
         </nav>
         <hr>
         <br>
